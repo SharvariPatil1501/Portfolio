@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Sharvari Patil</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="name">Sharvari Patil</div>
+  <nav>
+    <a href="index.html">About</a>
+    <a href="index.html#skills">Skills</a>
+    <a href="experience.html">Experience</a>
+    <a href="education.html">Education</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="certifications.html">Certifications</a>
+  </nav>
+  <div class="socials">
+    <a href="https://www.linkedin.com/in/sharvari-v-patil" target="_blank" rel="noopener" title="LinkedIn">in</a>
+    <a href="mailto:sharvari1501patil@gmail.com" title="Email">@</a>
+    <a href="tel:+12138033544" title="Call">☎</a>
+  </div>
+</aside>
+
+<main>
+  <h1>Projects</h1>
+
+  <div class="card">
+    <h2>Real-Time Streaming Data Pipeline</h2>
+    <div class="meta">Kafka · Spark Structured Streaming · Airflow · AWS S3/Redshift · Great Expectations</div>
+    <p>End-to-end pipeline ingesting simulated e-commerce clickstream events through Kafka, processed with windowed aggregation and watermarking in Spark, then validated and loaded via Airflow into a star-schema warehouse in PostgreSQL — with automated data-quality checks and the full stack containerized in Docker Compose.</p>
+  </div>
+
+  <div class="card">
+    <h2>Cotton Leaf Disease Detection</h2>
+    <div class="meta">CNN · Deep Learning · Published</div>
+    <p>Collected, labeled, and augmented a multi-source cotton leaf image dataset, then trained a CNN that reached ~90% accuracy with stable validation loss. Built into an end-to-end app that detects disease from a leaf photo and delivers recommendations through a FarmKart module.</p>
+  </div>
+
+  <div class="card">
+    <h2>COVID-19 Vaccine Tracker</h2>
+    <div class="meta">Kotlin · Android · REST APIs</div>
+    <p>Android app showing real-time vaccine slot availability by pincode. Fetches live API data, filters by the pincode a user enters, and displays results across clear input and result screens; used Postman to validate API responses during development.</p>
+  </div>
+
+  <div class="card">
+    <h2>Triangle Detection in Graphs</h2>
+    <div class="meta">Graph Theory · Algorithms · ICPC Problem</div>
+    <p>Solved an ICPC problem of counting triangles in a node-and-link figure by traversing the graph from each node as an apex, then repeating on the figure flipped upside down to catch downward-pointing triangles — summing both counts for the total.</p>
+  </div>
+</main>
+
+</body>
+</html>
